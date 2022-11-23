@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#cp $1 $2
+
+greeting=HowFar
+
+personGreeted=Tobiloba
+
+echo $greeting $personGreeted
+
+

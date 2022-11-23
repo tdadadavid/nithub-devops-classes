@@ -1,0 +1,27 @@
+#!/bin/bash
+
+
+
+if [ $1 -gt $2 ]
+ then
+   echo $1 'dey greater'
+   if [ $2 -gt $3 ]
+   then
+     echo 'You no sabi,' $1 'na the greatest'
+   fi
+if [$2 -gt $1]
+  then 
+    echo $2 'dey greater than' $1 'comot for street'
+    if [$2 -gt $3]
+    then 
+        echo $2 'na the greatest'
+     fi  
+if [$3 -gt $2]
+   then
+     echo $3 'dey greater than' $! 'comot for street'
+   if [$2 -gt $1]
+    then
+      echo $3 'na the greatest'
+    fi
+fi
+
