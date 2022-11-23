@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#Ask the user for their name
+
+#echo Who I dey follow talk??
+
+#read myName
+
+#echo Na $myName you dey follow talk
+
+read -p 'Username: ' uservar
+
+read -sp 'Password: ' passvar
+
+
+echo $'\n' '...chillFirst'
+echo $'\n' Thank you OG $uservar, we don run am o. Your password na $passvar

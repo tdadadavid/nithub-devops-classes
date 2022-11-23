@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo Enter Number
+read input
+
+let a=$input/2
+
+echo Your input is $input. Dividing $input by 2 gives $a

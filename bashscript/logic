@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo 'How far bro?? Enter a number'
+
+read number
+
+
+if [ $number -gt 100 ] 
+
+then
+ echo 'How far, you sabi. Your number na' $number 'dey greater.'
+
+
+
+fi 
