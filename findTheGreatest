@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#$1 $2 $3
+
+firstNum=$1
+secondNum=$2
+thirdNum=$3
+result=0 
+intermediate = 0
+
+if [ $firstNum -gt $secondNum ]
+then
+  intermediate = $firstNum
+else
+  intermediate = $secondNum
+fi
+
+if [ intermediate -gt $thirdNum ]
+then
+ echo intermediate
+else 
+ echo $thirdNum
+fi
+
+
+

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+let myNumber=10
+
+# accept a number form the user
+read -p "number: " number
+
+ if [ $number -gt $myNumber ]
+then 
+echo $number
+ else
+echo "my number is greate"
+fi
+

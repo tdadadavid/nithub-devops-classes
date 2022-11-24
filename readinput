@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo tani mo ban soro? 
+
+read username
+
+echo omo na me $username your guy

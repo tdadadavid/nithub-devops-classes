@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# read line from user
+read -p 'number: ' number
+
+echo "given number: " $number
+
+echo "dividing number by 2...."
+
+# divide the given number by 2
+let result=$number/2
+
+echo dividing $number by 2 gives $result
+

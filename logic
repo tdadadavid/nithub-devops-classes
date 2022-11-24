@@ -1,0 +1,8 @@
+#!/bin/bash
+
+name="oma"
+
+ if [ $name ]
+then 
+ echo 'Ekaro' $name
+fi

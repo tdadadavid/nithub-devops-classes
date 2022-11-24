@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# a simple sentence variables
+
+greetings="Hello"
+
+echo $greetings $(whoami)

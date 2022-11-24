@@ -1,0 +1,8 @@
+#!/bin/bash
+
+read -p 'Username: ' username
+read -sp 'password: ' password
+echo 
+echo ...validating
+echo Who dash you access $username? omo $password does not match previous command
+

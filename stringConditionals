@@ -1,0 +1,13 @@
+#!/bin/bash
+
+name="shey you dey me ni"
+
+# accept user input
+read -p 'guess my name: ' userName
+
+if [ "$name" = "$userName" ]
+ then 
+echo "Wooow! you got it"
+ else 
+echo "Shey you dey whyn me ni🤣"
+fi
